@@ -215,6 +215,12 @@ namespace Tugas_CRUD
             this.Hide();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmPelanggan frmPelanggan = new FrmPelanggan();
+            frmPelanggan.Show();    
+        }
+
         private void FrmMain_Load(object sender, EventArgs e)
         {
             try
