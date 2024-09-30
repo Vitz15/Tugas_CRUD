@@ -45,7 +45,6 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label5 = new System.Windows.Forms.Label();
             this.CBLevel = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -116,7 +115,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(492, 38);
+            this.btnSave.Location = new System.Drawing.Point(475, 38);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(119, 38);
             this.btnSave.TabIndex = 13;
@@ -136,7 +135,7 @@
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(492, 153);
+            this.btnClear.Location = new System.Drawing.Point(475, 153);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(119, 38);
             this.btnClear.TabIndex = 15;
@@ -146,7 +145,7 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(492, 98);
+            this.btnUpdate.Location = new System.Drawing.Point(475, 98);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(119, 38);
             this.btnUpdate.TabIndex = 16;
@@ -205,22 +204,11 @@
             this.CBLevel.Size = new System.Drawing.Size(96, 24);
             this.CBLevel.TabIndex = 21;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(348, 153);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(119, 38);
-            this.button1.TabIndex = 22;
-            this.button1.Text = "Print";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.CBLevel);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.dataGridView1);
@@ -266,6 +254,5 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox CBLevel;
-        private System.Windows.Forms.Button button1;
     }
 }
